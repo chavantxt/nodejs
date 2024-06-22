@@ -1,9 +1,6 @@
-console.log("Hello Wolrd!!");
+const add=require('./add')
+console.log("Hello Wolrd!!!!!!!!!!!!!!!");
 
-const add=(a,b)=>{
-    return a+b;
-}
-
-const sum = add(1,2)
-
-console.log(sum)
+const sum=add(1,2);
+const sum2=add(5,3);
+console.log(sum2);
