@@ -1,6 +1,6 @@
-##Check Version 
+## Check Version 
 node -v
 
-##Run file
+## Run file
 node index.js
 node index
