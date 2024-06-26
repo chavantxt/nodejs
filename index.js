@@ -1,6 +1,17 @@
 const add=require('./add')
-console.log("Hello Wolrd!!!!!!!!!!!!!!!");
+require('./batman')
+require('./superhero')
 
 const sum=add(1,2);
 const sum2=add(5,3);
 console.log(sum2);
+
+const su=require("./superhero") 
+
+console.log(su.getName());
+
+su.setName("Tejaswini")
+console.log(su.getName()); //Tejaswini
+
+const su2=require("./superhero")
+console.log(su2.getName()) //Tejaswini
