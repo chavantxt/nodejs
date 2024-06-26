@@ -15,3 +15,13 @@ console.log(su.getName()); //Tejaswini
 
 const su2=require("./superhero")
 console.log(su2.getName()) //Tejaswini
+
+const math=require("./math")
+console.log(math(2,7))
+
+const math3=require("./math2")
+console.log(add(3,3))
+
+const {addition,subtract}=require("./math3");
+console.log(addition(5,3));
+console.log(subtract(6,7))
