@@ -22,5 +22,4 @@ console.log(math(2,7))
 const math3=require("./math2")
 console.log(add(3,3))
 
-const math5=require("./math3")
-console.log(math5.sub(4-5));
+const {addition,subtract}=require("./math3");

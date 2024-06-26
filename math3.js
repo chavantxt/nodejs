@@ -1,12 +1,12 @@
-const add=(a,b)=>{
+const addition=(a,b)=>{
     return a+b;
 }
 
-const sub=(a,b)=>{
+const subtract=(a,b)=>{
     return a-b;
 }
 
 module.exports={
-    add,
-    sub
+    addition,
+    subtract
 }
