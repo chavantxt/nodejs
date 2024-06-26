@@ -5,11 +5,9 @@ class SuperHero{
     getName(){
         return this.name
     }
-    setName(){
+    setName(name){
         this.name = name;
     }
 }
 
-const superHero="SuperMan!"
-console.log(superHero)
 module.exports = new SuperHero("Batman")

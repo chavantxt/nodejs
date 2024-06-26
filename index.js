@@ -9,3 +9,9 @@ console.log(sum2);
 const su=require("./superhero") 
 
 console.log(su.getName());
+
+su.setName("Tejaswini")
+console.log(su.getName()); //Tejaswini
+
+const su2=require("./superhero")
+console.log(su2.getName()) //Tejaswini
