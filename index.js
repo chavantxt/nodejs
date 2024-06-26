@@ -18,3 +18,6 @@ console.log(su2.getName()) //Tejaswini
 
 const math=require("./math")
 console.log(math(2,7))
+
+const math3=require("./math2")
+console.log(add(3,3))
